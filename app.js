@@ -14,4 +14,13 @@ app.get("/api/shopping-list", (req, res) => {
   });
 });
 
+
+
+app.get("/api", (req, res) => {
+
+res.send("serever is running ok").status(200)
+  });
+
+
+
 app.listen(8080, () => console.log(`Server is listening on port ${8080}`));
