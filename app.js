@@ -15,6 +15,9 @@ const app = express();
 // });
 
 
+app.get("/", (req,res)=>{
+  res.send( 'hw' );
+})
 
 app.get("/api", (req, res) => {
 
